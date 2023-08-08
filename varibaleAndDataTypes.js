@@ -58,10 +58,34 @@
 // `)
 
 
-// Javascript operators
-// •	Arithmetic Operators(+,-,*,/,++,--,%)
-// •	Assignment Operators(=,+=,-=…….)
-// •	Comparison Operators(==,===,!=,>,<,>=….)
-// •	Logical Operators(and ,or ,not)
-// •	Conditional Operators()
-// •	Type Operators(typeof,instance of)
+////Data Types
+//// JavaScript has 8 Datatypes
+
+// 1. String
+// 2. Number
+// 3. Bigint
+// 4. Boolean
+// 5. Undefined
+// 6. Null
+// 7. Symbol
+// 8. Object
+// The Object Datatype
+
+//// The object data type can contain:
+
+// 1. An object
+// 2. An array
+// 3. A date
+
+
+////operators
+//// Arithmetic Operators(+,-,*,/,%,++,--,**)
+//// Assignment Operators(=,+=,-=,...)
+//// Comparison Operators(==,===,!=,<,>,<=,=>,....)
+//// String Operators(concatination)
+//// Logical Operators(&&,||,!)
+//// Bitwise Operators(5<<1,0101<1,)
+//// Ternary Operators(true or false)
+///// Type Operators(typeof,instanceof)
+
+
