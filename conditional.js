@@ -15,3 +15,12 @@ if(tem<30)
 {
     console.log("it's modreate outside")
 }
+// The following values evaluate to false (also known as Falsy values):
+
+// false
+// undefined
+// null
+// 0
+// NaN
+// the empty string ("")
+// All other values—including all objects—evaluate to true when passed to a conditional statement
