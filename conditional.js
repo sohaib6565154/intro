@@ -34,6 +34,7 @@ if(tem<20)
 
 switch(tem)
 {
+<<<<<<< HEAD
     case 1: 20
     {
         console.log("yes");
@@ -49,3 +50,16 @@ switch(tem)
         console.log("not a number")
     }
 }
+=======
+    console.log("it's modreate outside")
+}
+// The following values evaluate to false (also known as Falsy values):
+
+// false
+// undefined
+// null
+// 0
+// NaN
+// the empty string ("")
+// All other values—including all objects—evaluate to true when passed to a conditional statement
+>>>>>>> ee800199fbc8862e18cc5fb2b4d1119882148ee4
