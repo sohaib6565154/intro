@@ -15,14 +15,14 @@
 // console.log(fullName);
 
 
-////let
-//// The let keyword was introduced in ES6 (2015).
-////Variables defined with let can not be redeclared.
-//// Variables defined with let must be declared before use.
-//// Variables defined with let have block scope.
-// // let fullName="Sohaib Hassan";
-// // let fullName="Ali Hasan";//in let keyword variable name can not declear again
-// // console.log(fullName);
+//let
+// The let keyword was introduced in ES6 (2015).
+//Variables defined with let can not be redeclared.
+// Variables defined with let must be declared before use.
+// Variables defined with let have block scope.
+// let fullName="Sohaib Hassan";
+// let fullName="Ali Hasan";//in let keyword variable name can not declear again
+// console.log(fullName);
 
 
 ///const
@@ -59,8 +59,24 @@
 
 
 ////Data Types
-//// JavaScript has 8 Datatypes
+//primitive datatypes and ojects
+//primitive datatypes
+//these are fundamental datatypes means it is already bulit in.and we use 7 data types
+// null
+// Number
+// Symbol
+// String
+// BigInt
+// Boolean
+// undefined
 
+//OBJECTS 
+// object is not primitive data type
+// objects are key value pairs
+// let person={
+//     names="ssss";//names is key and ssss is value
+//     age=16;//age is key and 16 is value
+// }
 // 1. String
 // 2. Number
 // 3. Bigint
@@ -87,5 +103,15 @@
 //// Bitwise Operators(5<<1,0101<1,)
 //// Ternary Operators(true or false)
 ///// Type Operators(typeof,instanceof)
+
+
+abc="student";
+function cs()
+{
+    let abc=100;
+    console.log(abc);//10
+}
+console.log(abc);//student
+cs();
 
 

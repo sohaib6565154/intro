@@ -1,6 +1,11 @@
-var abc="Double cotation";
+//var abc="Double cotation";
 let ab='single cotation';
-console.log(abc.length);
+console.log(ab.length);
+
+//Templete litter and escape sequence character
+let boy1="Soh\"aib";
+let boy2="Hassan";
+console.log(`${boy1} is a  friend of ${boy2}`);
 
 //Extacting String part
 let slice=names.slice(1,4);
