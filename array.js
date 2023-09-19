@@ -1,3 +1,4 @@
+//collection of collection of items
 // const arr=['abc','def']
 // or
 // const car=[];
@@ -7,6 +8,7 @@
 // console.log(arr);
 // const array=new Array("abc","def");
 // console.log(array[0]);
+
 // Accessing Array Element
 // console.log(arr[1]);
 // arr[1]="xyz";
@@ -14,6 +16,7 @@
 // console.log(car);
 // console.log(car.length)
 // console.log(car[car.length-1])
+
 // Array Method
 // console.log(arr.toString())
 // console.log(arr.join("#"));
@@ -45,3 +48,8 @@
 // console.log(points.sort(function(a, b){return a - b}));//Assending order
 // console.log(points.sort(function(){return 0.5 - Math.random()}));//random number
 // console.log(points[0]);
+
+//delete
+let numb=[1,2,3,4,5,6];
+delete numb[0];
+console.log(numb)//do not change the length of array
