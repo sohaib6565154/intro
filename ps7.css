@@ -1,0 +1,16 @@
+*
+{
+    margin: 0%;
+    padding: 0%;
+}
+nav
+{
+    display: flex;
+    background: cadetblue;
+}
+nav>li
+{
+    
+    list-style: none;
+    padding: 0 27px;
+}
